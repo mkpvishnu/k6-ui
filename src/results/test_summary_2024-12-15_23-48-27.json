@@ -1,0 +1,13 @@
+{
+  "timestamp": "2024-12-15_23-48-27",
+  "duration": 1,
+  "totalRequests": 0,
+  "averageRPS": 0,
+  "maxVUs": 0,
+  "minResponseTime": 0,
+  "maxResponseTime": 0,
+  "averageResponseTime": 0,
+  "totalErrors": 0,
+  "p95ResponseTime": 0,
+  "errorRate": 0
+}

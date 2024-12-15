@@ -1,0 +1,35 @@
+/* Custom scrollbar for the output area */
+#outputArea::-webkit-scrollbar {
+    width: 8px;
+}
+
+#outputArea::-webkit-scrollbar-track {
+    background: #1a202c;
+    border-radius: 4px;
+}
+
+#outputArea::-webkit-scrollbar-thumb {
+    background: #4a5568;
+    border-radius: 4px;
+}
+
+#outputArea::-webkit-scrollbar-thumb:hover {
+    background: #718096;
+}
+
+/* Disabled button styles */
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Animation for running state */
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+.running {
+    animation: pulse 2s infinite;
+} 
